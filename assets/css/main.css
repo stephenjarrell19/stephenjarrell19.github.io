@@ -29,8 +29,14 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1; }
+
 img:nth-child(1){
     zoom: 50%;
+}
+img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
 }
 ol, ul {
   list-style: none; }
