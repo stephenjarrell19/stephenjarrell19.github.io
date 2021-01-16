@@ -2244,7 +2244,7 @@ button,
             -moz-object-position: center;
             -webkit-object-position: center;
             -ms-object-position: center;
-            object-position: 20px -200px;
+            object-position: 10px -10px;
             width: 100%;
         }
 
@@ -2285,14 +2285,14 @@ button,
             height: 25em;
             max-height: 50vh;
             min-height: 18em;
-        
+            object-position: 10px -10px;
             width: 100%;
         }
 }
 
 @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner2 .image {
-        height: 200%;
+        object-position: 10px -10px;
     }
 }
 
