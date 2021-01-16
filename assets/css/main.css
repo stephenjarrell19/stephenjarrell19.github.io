@@ -2285,14 +2285,14 @@ button,
             height: 25em;
             max-height: 50vh;
             min-height: 18em;
-            object-position: 10px -10px;
+            object-position: 10px 200px;
             width: 100%;
         }
 }
 
 @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner2 .image {
-        object-position: 10px -10px;
+        object-position: 10px 200px;
     }
 }
 
