@@ -2292,7 +2292,7 @@ button,
 
 @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner2 .image {
-        object-position: 10px 200px;
+        object-position: 100px 300px;
     }
 }
 
