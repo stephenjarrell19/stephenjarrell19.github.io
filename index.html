@@ -57,7 +57,7 @@
                                     <ul class="actions">
                                         <li><a href="https://www.youtube.com/watch?v=oWClAmB6xAM" class="button big">Youtube</a></li>
                           
-                                        <li><a href="https://github.com/stephenjarrell19/DeepDream class="button big">Code</a></li>
+                                        <li><a href="https://github.com/stephenjarrell19/DeepDream" class="button big">Code</a></li>
                                     </ul>
                                 </div>
                                 <span class="image">
@@ -108,12 +108,12 @@
                                         <li><a href="images/Stephen_Jarrell_Resume.pdf" class="button big">My Resume</a></li>
                                     </ul>
                                 </div>
-                                <!-- <span class="image object">
-                                        <img src="images/headshot.jpg" alt="" />
-                                    </span>
-                                </section>
-    -->
-                                <!-- Section
+                                <span class="image object">
+                                    <img src="images/headshot.jpg" alt="" />
+                                </span>
+                            </section>
+
+                            <!-- Section
     <section>
         <header class="major">
             <h2>How I Spend My Time</h2>
@@ -155,77 +155,77 @@
         </div>
     </section>
     -->
-                                <!-- Section -->
-                                <section>
-                                    <header class="major">
-                                        <a id="recent_work"></a>
-                                        <h2>Stepping Stones: Projects and Tinkering</h2>
-                                    </header>
-                                    <div class="posts">
-                                        <article>
-                                            <a class="image"><img src="images/thumbnail.png" alt="" /></a>
-                                            <h3>Can Computers Dream? What goes on inside of a Neural Network?</h3>
-                                            <p>
-                                                Usually convolutional neural networks are black boxes; it is difficult to know if they're learning the features of your dataset that you would expect them to. Using TensorFlow and Tiled Gradient Ascent for Activation Maximization, we can answer the question:
+                            <!-- Section -->
+                            <section>
+                                <header class="major">
+                                    <a id="recent_work"></a>
+                                    <h2>Stepping Stones: Projects and Tinkering</h2>
+                                </header>
+                                <div class="posts">
+                                    <article>
+                                        <a class="image"><img src="images/thumbnail.png" alt="" /></a>
+                                        <h3>Can Computers Dream? What goes on inside of a Neural Network?</h3>
+                                        <p>
+                                            Usually convolutional neural networks are black boxes; it is difficult to know if they're learning the features of your dataset that you would expect them to. Using TensorFlow and Tiled Gradient Ascent for Activation Maximization, we can answer the question:
 
-                                                What do computers see? A computer vision neural network is akin to a brain that can only see, so what happens when we activate every neuron of the brain as much as we can? This is the result.
-                                            </p>
-                                            <ul class="actions">
-                                                <li><a href="https://youtu.be/oWClAmB6xAM" class="button">Youtube Video</a></li>
-                                            </ul>
-                                        </article>
-                                        <article>
-                                            <a class="image"><img src="images/wildfire.gif" alt="" /></a>
-                                            <h3>Internship: Detecting Wildfires using Mask R-CNN Pt.2</h3>
-                                            <p>
-                                                This is much better. The next step is to try an LSTM approach where our model can remember predictions of previous frames, instead of simply searching for smoke frame-by frame. To do so, I will start by developing a Faster R-CNN that will feed the
-                                                outputs to an LSTM. The Faster R-CNN will perform the detection and create bounding boxes that outline the image we want to feed to the LSTM. The intuition is that feeding a sequence of images will reduce the false positives of our system and increase
-                                                the precision by monitoring the development of the region of interest over time by including the relevant information of past predictions.
-                                            </p>
-                                            <!--
-                <ul class="actions">
-                    <li><a href="#" class="button">More</a></li>
-                </ul>
-                    -->
-                                        </article>
-                                        <article>
-                                            <a class="image"><img src="images/wildfire2.gif" alt="" /></a>
-                                            <h3>Internship: Detecting Wildfires using Mask R-CNN Pt.1</h3>
-                                            <p>
-                                                Its a start. You see that the smoke is consistently predicted when it is there, but there are obvious false positives: clouds. Another issue is that non-maximum supression (NMS) is not removing other predictions on the same smoke
-                                                because the Intersection over Union (IoU) is smaller than the NMS threshold. I either have to adjust this threshold or handle Mask R-CNN outputs with post-processing to favor the largest of the overlapping bounding box and segmentations.
-                                            </p>
-                                            <!--
-                <ul class="actions">
-                    <li><a href="#" class="button">More</a></li>
-                </ul>
-                    -->
-                                        </article>
-                                        <article>
-                                            <a class="image"><img src="images/crossval.JPG" alt="" /></a>
-                                            <h3>An Empirical Analysis of Supervised Learning Methods</h3>
-                                            <p>
-                                                This is a recreation of a previous research paper for one of my upper division Machine Learning courses. This is a thorough performance analysis of 3 leading supervised learning algorithms on a binary classification task, performed across 3 UCI Machine Learning datasets.
-                                                My study includes building GridSearchCV pipelines with sklearn to perform hyperparameter optimization and nested cross validation to find the best model parameters for each dataset and algorithm.
-                                            </p>
-                                            <ul class="actions">
-                                                <li><a href="https://github.com/stephenjarrell19/GridSearchCV/blob/master/gridSearchCv.ipynb" class="button">Jupyter Notebook</a></li>
-                                            </ul>
-                                        </article>
-                                        <article>
-                                            <a class="image"><img src="images/rasp.JPG" alt="" /></a>
-                                            <h3>Creating Our Own Raspberry Pi MySQL Server</h3>
-                                            <p>
-                                                Using LAMP (Linux, Apache2, MySQL, and phpMyAdmin), we develop our very own MySQL Server that we can use as a Central Hub for various devices & applications. My project was the best in my ECE 196, an Electrical Engineering course,
-                                                and will be used to teach future iterations of the course. This was a fun project to develop, with very exciting applications.
-                                                I gave a basic demonstration and presentation of this project to my class; a link to the "Unlisted" YouTube recording is provided below.
-                                            </p>
-                                            <ul class="actions">
-                                                <li><a href="https://youtu.be/R-NCuUX-27A?t=413" class="button">Youtube Demo / Presentation</a></li>
-                                            </ul>
-                                        </article>
-
+                                            What do computers see? A computer vision neural network is akin to a brain that can only see, so what happens when we activate every neuron of the brain as much as we can? This is the result.
+                                        </p>
+                                        <ul class="actions">
+                                            <li><a href="https://youtu.be/oWClAmB6xAM" class="button">Youtube Video</a></li>
+                                        </ul>
+                                    </article>
+                                    <article>
+                                        <a class="image"><img src="images/wildfire.gif" alt="" /></a>
+                                        <h3>Internship: Detecting Wildfires using Mask R-CNN Pt.2</h3>
+                                        <p>
+                                            This is much better. The next step is to try an LSTM approach where our model can remember predictions of previous frames, instead of simply searching for smoke frame-by frame. To do so, I will start by developing a Faster R-CNN that will feed the
+                                            outputs to an LSTM. The Faster R-CNN will perform the detection and create bounding boxes that outline the image we want to feed to the LSTM. The intuition is that feeding a sequence of images will reduce the false positives of our system and increase
+                                            the precision by monitoring the development of the region of interest over time by including the relevant information of past predictions.
+                                        </p>
                                         <!--
+                <ul class="actions">
+                    <li><a href="#" class="button">More</a></li>
+                </ul>
+                    -->
+                                    </article>
+                                    <article>
+                                        <a class="image"><img src="images/wildfire2.gif" alt="" /></a>
+                                        <h3>Internship: Detecting Wildfires using Mask R-CNN Pt.1</h3>
+                                        <p>
+                                            Its a start. You see that the smoke is consistently predicted when it is there, but there are obvious false positives: clouds. Another issue is that non-maximum supression (NMS) is not removing other predictions on the same smoke
+                                            because the Intersection over Union (IoU) is smaller than the NMS threshold. I either have to adjust this threshold or handle Mask R-CNN outputs with post-processing to favor the largest of the overlapping bounding box and segmentations.
+                                        </p>
+                                        <!--
+                <ul class="actions">
+                    <li><a href="#" class="button">More</a></li>
+                </ul>
+                    -->
+                                    </article>
+                                    <article>
+                                        <a class="image"><img src="images/crossval.JPG" alt="" /></a>
+                                        <h3>An Empirical Analysis of Supervised Learning Methods</h3>
+                                        <p>
+                                            This is a recreation of a previous research paper for one of my upper division Machine Learning courses. This is a thorough performance analysis of 3 leading supervised learning algorithms on a binary classification task, performed across 3 UCI Machine Learning datasets.
+                                            My study includes building GridSearchCV pipelines with sklearn to perform hyperparameter optimization and nested cross validation to find the best model parameters for each dataset and algorithm.
+                                        </p>
+                                        <ul class="actions">
+                                            <li><a href="https://github.com/stephenjarrell19/GridSearchCV/blob/master/gridSearchCv.ipynb" class="button">Jupyter Notebook</a></li>
+                                        </ul>
+                                    </article>
+                                    <article>
+                                        <a class="image"><img src="images/rasp.JPG" alt="" /></a>
+                                        <h3>Creating Our Own Raspberry Pi MySQL Server</h3>
+                                        <p>
+                                            Using LAMP (Linux, Apache2, MySQL, and phpMyAdmin), we develop our very own MySQL Server that we can use as a Central Hub for various devices & applications. My project was the best in my ECE 196, an Electrical Engineering course,
+                                            and will be used to teach future iterations of the course. This was a fun project to develop, with very exciting applications.
+                                            I gave a basic demonstration and presentation of this project to my class; a link to the "Unlisted" YouTube recording is provided below.
+                                        </p>
+                                        <ul class="actions">
+                                            <li><a href="https://youtu.be/R-NCuUX-27A?t=413" class="button">Youtube Demo / Presentation</a></li>
+                                        </ul>
+                                    </article>
+
+                                    <!--
             <article>
                 <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
                 <h3>Feugiat lorem aenean</h3>
@@ -243,10 +243,10 @@
                 </ul>
             </article>
                 -->
-                                    </div>
-                                </section>
+                                </div>
+                            </section>
 
-</div>
+                        </div>
 					</div>
 
 				<!-- Sidebar -->
