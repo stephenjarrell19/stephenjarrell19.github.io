@@ -1258,7 +1258,10 @@ a.image {
     -moz-transition: -moz-transform 0.2s ease;
     -webkit-transition: -webkit-transform 0.2s ease;
     -ms-transition: -ms-transform 0.2s ease;
-    transition: transform 0.2s ease; }
+    transition: transform 0.2s ease; 
+    height: auto;
+
+  }
   a.image:hover img {
     -moz-transform: scale(1.075);
     -webkit-transform: scale(1.075);
