@@ -26,13 +26,38 @@
 
                             <!-- Header -->
                             <header id="header">
-                                <a href="index.html" class="logo"><strong>Stephen Jarrell</strong> Machine Learning and Neural Computation</a>
+                                <a href="index.html#aboutme" class="logo"><strong>Stephen Jarrell</strong> Machine Learning and Neural Computation</a>
                                 <ul class="icons">
-                                    <li><a href="https://github.com/stephenjarrell19" target="_blank" rel="noopener noreferrer" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                                    <li><a href="https://www.linkedin.com/in/stephenjarrell19/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="https://github.com/stephenjarrell19" target="_blank" rel="noopener noreferrer" class="icon brands alt fa-github fa-lg"><span class="label">GitHub</span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/stephenjarrell19/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin fa-lg"><span class="label">LinkedIn</span></a></li>
 
                                 </ul>
                             </header>
+                            <!-- Banner -->
+                            <section id="banner">
+                                <div class="content">
+                                    <header>
+                                        <h1>
+                                            Current Job: <br />
+                                            Detecting Wildfire Smoke
+                                        </h1>
+                                        <p>Mask R-CNN for Detection and Segmentation</p>
+                                    </header>
+                                    <p>
+                                        I'm currently developing a Mask R-CNN using PyTorch on a computing cluster at the San Diego Supercomputer Center. I operate within Kubernetes, Linux, and Jupyter daily, creating preprocessing and postprocessing data pipelines,
+                                        for training and evaluation. Time to inference is critical for early smoke detection because once the smoke is large a human observer will simply call 911. We are trying to beat the human observer and
+                                        minimize the impact that wildfires have in Southern California. We will deploy deep learning models on Jetson Nanos, edge/embedded devices, at high-altitude weather stations to quickly detect smoke from great distances.
+                                        If you have any questions, do contact me! I am proud to be working for the SDSC.
+
+                                    </p>
+                                   
+                                </div>
+                                <span class="image">
+                                    <img src="images/wildfire.gif" alt="" />
+
+                                </span>
+                            </section>
+
 
                             <!-- Banner -->
                             <section id="banner">
@@ -53,26 +78,26 @@
                                     </p>
                                     <ul class="actions">
                                         <li><a href="https://www.youtube.com/watch?v=oWClAmB6xAM" target="_blank" rel="noopener noreferrer" class="button big">Youtube</a></li>
-                          
+
                                         <li><a href="https://github.com/stephenjarrell19/DeepDream" target="_blank" rel="noopener noreferrer" class="button big">Code</a></li>
                                     </ul>
                                 </div>
                                 <span class="image">
                                     <img src="images/dream1.jpg" alt="" />
-                               
+
                                 </span>
                             </section>
-                         
-                           
+
+
 
                             <!-- Banner -->
 
                             <section id="banner2">
-                                <div class="content">
+                                <div class="content" id =aboutme>
                                     <header>
                                         <h1>
-                                            Hi, <br />
-                                            I'm Stephen
+                                            My Major <br />
+                                            And Me
                                         </h1>
                                         <p>What is Cognitive Science, Machine Learning and Neural Computation?</p>
                                     </header>
@@ -160,8 +185,8 @@
                                 </header>
                                 <div class="posts">
                                     <article>
-                                        <a class="image"><img src="images/thumbnail.png" alt="" /></a>
-                                        <h3>Can Computers Dream? What goes on inside of a Neural Network?</h3>
+                                        <a class="image"><img src="images/YT_thumbnail.png" alt="" /></a>
+                                        <h3>Can Computers Dream? What does a convolutional neural network look for when it generates predictions?</h3>
                                         <p>
                                             Usually convolutional neural networks are black boxes; it is difficult to know if they're learning the features of your dataset that you would expect them to. Using TensorFlow and Tiled Gradient Ascent for Activation Maximization, we can answer the question:
 
@@ -172,7 +197,7 @@
                                         </ul>
                                     </article>
                                     <article>
-                                        <a class="image"><img src="images/wildfire.gif" alt="" /></a>
+                                        <a class="image"><img src="images/pt2.gif" alt="" /></a>
                                         <h3>Internship: Detecting Wildfires using Mask R-CNN Pt.2</h3>
                                         <p>
                                             This is much better. The next step is to try an LSTM approach where our model can remember predictions of previous frames, instead of simply searching for smoke frame-by frame. To do so, I will start by developing a Faster R-CNN that will feed the
@@ -186,7 +211,7 @@
                     -->
                                     </article>
                                     <article>
-                                        <a class="image"><img src="images/wildfire2.gif" alt="" /></a>
+                                        <a class="image"><img src="images/pt1.gif" alt="" /></a>
                                         <h3>Internship: Detecting Wildfires using Mask R-CNN Pt.1</h3>
                                         <p>
                                             It's a start. You see that the smoke is consistently predicted when it is there, but there are obvious false positives: clouds. Another issue is that non-maximum supression (NMS) is not removing other predictions on the same smoke
