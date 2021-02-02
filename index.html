@@ -71,9 +71,9 @@
                                     </header>
                                     <p>
                                         How insane is AI generated art? I really enjoyed this project. This technique can be used to identify what a neural network is trained to see, which can help to inform an engineer whether or not the neural network was trained to percieve the correct patterns in an image.
-                                        In this example, I've repurposed this method to generate an image by using repurposing a Convolutional Neural Network trained for image classification for feature reconstruction, by choosing the Neural Network layers that
-                                        to maximize. The image is fed into the feature maximization model and adjusts the pixel values with gradient ascent, maximizing the excitation of the layers. In this way, we can identify what features the original CNN was looking
-                                        for in the image, but we can also tune some Deep Dream hyperparameters to achieve abstract and often psychedlic art. Pretty awesome right?!
+                                        However, in this example, I've applied this method to generate an artistic image by using repurposing a Convolutional Neural Network trained for image classification for feature reconstruction, choosing the Neural Network layers that
+                                        I want to maximize. The image is fed into the feature maximization model and adjusts the pixel values with gradient ascent, maximizing the loss (the excitation of the layers at each pixel). By updating pixel values, we can identify what features the original CNN was looking
+                                        for in the image, and with some added spices such as gradient normalization, jitter, and pyramid scaling / octave scaling,  we can achieve abstract and psychedlic art.
 
                                     </p>
                                     <ul class="actions">
