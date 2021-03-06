@@ -47,7 +47,8 @@
                                         I'm currently developing a Mask R-CNN model for detection and segmentation, using PyTorch on a computing cluster at the San Diego Supercomputer Center. The goal is to minimize the damage dealt by wildfires by detecting wildfire smoke in less than five minutes upon ignition.
                                         We will deploy these deep learning models on Jetson Nanos, edge/embedded devices, at high-altitude weather stations to quickly detect smoke from great distances.
                                         I am happy to be working on using computer vision for the daunting task of creating a solution to the accelerating wildfire crisis in California. Currently, this model
-                                        I am working on has an F1-score of 0.833!!! And more data is coming!!!
+                                        I am working on has an F1-score of 0.833! Meanwhile, more labeled data, approximately 3 times the currrent amount, will be coming in one week. This may potentially improve the model's performance
+                                        by a sizable margin. I'll be sure to continnue to post project updates.
 
                                     </p>
                                    
@@ -65,15 +66,15 @@
                                     <header>
                                         <h1>
                                             Deep Dream: <br />
-                                            AI Art
+                                            Visualizing a Neural Network
                                         </h1>
                                         <p>Activation Maximization through Gradient Ascent</p>
                                     </header>
                                     <p>
-                                        How insane is AI generated art? I really enjoyed this project. This technique can be used to identify what a neural network is trained to see, which can help to inform an engineer whether or not the neural network was trained to percieve the correct patterns in an image.
-                                        However, in this example, I've applied this method to generate an artistic image by repurposing a Convolutional Neural Network trained for image classification for feature reconstruction instead, choosing the Neural Network layers that
+                                        This technique can be used to identify what a neural network is trained to see, which can help to inform an engineer whether or not the neural network was trained to percieve the correct patterns in an image.
+                                        In this example, I've applied this method to generate an artistic image by repurposing a Convolutional Neural Network trained for image classification for feature reconstruction, choosing the concatenation layers that
                                         I want to maximize. The image is fed into the feature maximization model and adjusts the pixel values with gradient ascent, maximizing the loss (the excitation of the layers at each pixel). By updating pixel values, we can identify what features the original CNN was looking
-                                        for in the image, and with some added spices such as gradient normalization, jitter, and pyramid scaling / octave scaling,  we can achieve abstract and psychedlic art.
+                                        for in the image, and with some added spices such as gradient normalization, jitter, and pyramid scaling / octave scaling,  we can achieve vivid visualizations.
 
                                     </p>
                                     <ul class="actions">
