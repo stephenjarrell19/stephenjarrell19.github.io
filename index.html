@@ -68,23 +68,22 @@
                                             Deep Dream: <br />
                                             Visualizing a Neural Network
                                         </h1>
-                                        <p>Activation Maximization through Gradient Ascent</p>
+                                        <p>What is the Deep Dream Algorithm?</p>
                                     </header>
                                     <p>
-                                        This technique can be used to identify what a neural network is trained to see, which can help to inform an engineer whether or not the neural network was trained to percieve the correct patterns in an image.
-                                        In this example, I've applied this method to generate an artistic image by repurposing a Convolutional Neural Network trained for image classification for feature reconstruction, choosing the concatenation layers that
-                                        I want to maximize. The image is fed into the feature maximization model and adjusts the pixel values with gradient ascent, maximizing the loss (the excitation of the layers at each pixel). By updating pixel values, we can identify what features the original CNN was looking
-                                        for in the image, and with some added spices such as gradient normalization, jitter, and pyramid scaling / octave scaling,  we can achieve vivid visualizations.
-
+                                        As image recognition, object detection and segmentation neural networks get more advanced, they suffer more and more from a lack of interpretability. Interpretability is a critical and often overlooked aspect of Machine Learning; how can we trust the models we build? The Deep Dream algorithm offers a growing solution to the poor interpretability of neural networks by shining a light into the notorious "black box" of these models.
+                                        </br></br>
+                                        Deep Dream performs Activation Maximization, also known as Feature Visualization, in order to reveal the features that a given convolutional neural network is looking for. By maximally activating the brain of the model, we get vivid visualizations of the learned representations.
                                     </p>
                                     <ul class="actions">
+                                        <li><a href="https://github.com/stephenjarrell19/DeepDream" target="_blank" rel="noopener noreferrer" class="button big">Code</a></li>
+
                                         <li><a href="https://www.youtube.com/watch?v=oWClAmB6xAM" target="_blank" rel="noopener noreferrer" class="button big">Youtube</a></li>
 
-                                        <li><a href="https://github.com/stephenjarrell19/DeepDream" target="_blank" rel="noopener noreferrer" class="button big">Code</a></li>
                                     </ul>
                                 </div>
                                 <span class="image">
-                                    <img src="images/butterfly5.png" alt="" />
+                                    <img src="images/movie.gif" alt="" />
 
                                 </span>
                             </section>
@@ -301,7 +300,7 @@
 									</header>
                                     <ul>
                                         <li><a href="index.html">Homepage</a></li>
-                                        <li><a href="index.html#recent_work">Projects</a></li>
+                                        <li><a href="https://github.com/stephenjarrell19">Projects</a></li>
                                         <li><a href="images/Stephen_Jarrell_Resume.pdf">Resume</a></li>
 
 
