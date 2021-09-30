@@ -46,14 +46,13 @@
                                         <p>Some Work as a Machine Learning Intern at Saildrone Inc.</p>
                                     </header>
                                     <p>
-                                        During my ML internship at Saildrone I focused specifically on accelerating inference on the ocean drones. By replacing the backbone of the RetinaNet (SSD model) with a ResNet-18 and
-                                        pruning the ResNet blocks of that model by 50%, I was able to achieve a 3.5x inference time over the previous model. I utilized structured pruning at 50% by manipulating the weight matrices of the backbone modules in an 
+                                        During my ML internship at Saildrone I focused specifically on accelerating inference on the ocean drones. By replacing the backbone of the RetinaNet (SSD model) with a ResNet-18 and pruning half of the ResNet blocks of that model by 50%, I accelerated the model inference speed by 3.5x over the baseline. I utilized structured pruning at 50% by manipulating the weight matrices of the backbone modules in an
                                         Object Oriented fashion. This model can now run in LOW POWER MODE in deployment environments, which is crucial since the drones operate on solar power, with FASTER performance than the previous model at HIGH POWER modes on Nvidia AGX cards.
 
-                                    <ul class="actions">
-                                        <li><a href="presentation.pptx" target="_blank" rel="noopener noreferrer" class="button big">Powerpoint</a></li>
-                                    </ul>
-                                </div>
+                                        <ul class="actions">
+                                            <li><a href="presentation.pptx" target="_blank" rel="noopener noreferrer" class="button big">Powerpoint</a></li>
+                                        </ul>
+</div>
                                 <span class="image">
                                     <img src="images/pruning.png" alt="" />
 
